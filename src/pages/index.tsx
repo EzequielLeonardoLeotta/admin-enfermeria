@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import SignInPage from './sign-in/index.'
 import Header from '@/components/Header'
 
