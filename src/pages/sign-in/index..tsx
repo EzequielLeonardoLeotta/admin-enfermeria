@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
 import TextField from '@mui/material/TextField';
@@ -9,10 +8,10 @@ import Link from '@mui/material/Link';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
-import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Header from '@/components/Header';
 import { SIGN_UP } from '@/utils/constants/routes';
+import LockAvatar from '@/components/LockAvatar';
 
 function Copyright(props: any) {
   return (
@@ -67,9 +66,7 @@ export default function SignInPage() {
               alignItems: 'center',
             }}
           >
-            <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
-              <LockOutlinedIcon />
-            </Avatar>
+            <LockAvatar />
             <Typography component="h1" variant="h5">
               {"Iniciar sesión"}
             </Typography>
