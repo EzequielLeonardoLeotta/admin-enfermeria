@@ -96,9 +96,9 @@ export default function SignUpPage() {
 
                             <Grid item xs={12}>
                                 <FormControl fullWidth variant="outlined">
-                                    <InputLabel htmlFor="outlined-adornment-password">{"Contraseña"}</InputLabel>
+                                    <InputLabel htmlFor="password">{"Contraseña"}</InputLabel>
                                     <OutlinedInput
-                                        id="outlined-adornment-password"
+                                        name="password"
                                         type={showPassword ? 'text' : 'password'}
                                         endAdornment={
                                             <InputAdornment position="end">
